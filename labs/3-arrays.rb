@@ -15,8 +15,17 @@
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
 
-shared_shopping_list = [["milk", "eggs", "bacon"], ["beer", "cookies", "apples"]]
+# shared_shopping_list = [["milk", "eggs", "bacon"], ["beer", "cookies", "apples"]]
 
 # puts shared_shopping_list.sort!
 # puts shared_shopping_list [0] + shared_shopping_list [1].sort!
 
+ben_shopping_list = ["coffee", "beer"]
+brian_shopping_list = ["beer", "tacos"]
+
+combined_list = ben_shopping_list + brian_shopping_list
+# puts combined_list
+unique_combined_list = combined_list.uniq
+# puts unique_combined_list
+sorted_combined_list = unique_combined_list.sort
+puts sorted_combined_list
