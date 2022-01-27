@@ -3,8 +3,17 @@
 # ruby 2-conditionals.rb
 
 # Booleans
+test_is_true = true # Do not add quotes around true
+puts test_is_true
+
+test_is_false = false # Do not add quotes around false
+puts test_is_false 
 
 # Boolean Expressions
+puts 3 == 2 # == is a comparison operator, to check for truth
+puts 3 != 2 # != means not equal
+puts 3 > 2
+puts 3 < 2
 
 # If Conditional Logic
 
