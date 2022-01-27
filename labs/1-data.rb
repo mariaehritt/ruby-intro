@@ -28,3 +28,7 @@ dice_2 = rand(1..6)
 # puts dice_2
 
 puts "#{dice_1} #{dice_2}"
+
+total = dice_1 + dice_2
+
+puts "Total is: #{total}"
