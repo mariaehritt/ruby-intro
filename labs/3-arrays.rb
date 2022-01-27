@@ -14,3 +14,9 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+shared_shopping_list = [["milk", "eggs", "bacon"], ["beer", "cookies", "apples"]]
+
+# puts shared_shopping_list.sort!
+# puts shared_shopping_list [0] + shared_shopping_list [1].sort!
+

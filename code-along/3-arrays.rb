@@ -34,3 +34,4 @@ puts favorite_foods
 # https://ruby-doc.org/core-2.7.0/Array.html
 puts favorite_foods.size
 puts favorite_foods.count
+puts favorite_foods.length
